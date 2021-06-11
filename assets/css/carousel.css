@@ -33,6 +33,13 @@ body {
   height: 32rem;
 }
 
+.show-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  background-color: #5a5a5a;
+}
+
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
