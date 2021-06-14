@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/carousel.css" />
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
 
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
@@ -32,7 +34,7 @@
               "
             >
               <a
-                href="/"
+                href="index.php"
                 class="
                   d-flex
                   align-items-center
@@ -40,15 +42,11 @@
                   text-white text-decoration-none
                 "
               >
-                <svg
-                  class="bi me-2"
-                  width="40"
-                  height="32"
-                  role="img"
-                  aria-label="Bootstrap"
-                >
-                  <use xlink:href="#bootstrap" />
-                </svg>
+                <img 
+                class="bi me-2"
+                width="33"
+                height="33"
+                src="assets/img/icons/logo.png">
               </a>
               <ul
                 class="
@@ -61,7 +59,7 @@
                 "
               >
                 <li>
-                  <a href="index.php" class="nav-link px-2 text-secondary"
+                  <a href="index.php" class="nav-link px-2 text-white"
                     >Home</a
                   >
                 </li>
@@ -109,7 +107,8 @@
       </nav>
     </header>
 
-    <main>
+<main class="bg-dark">
+
       <!--Carousel-->
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -165,7 +164,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="assets/img/crs01.jpg" class="d-block show-image" />
+            <img src="assets/img/crs03.jpg" class="d-block show-image" />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -194,7 +193,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="assets/img/crs01.jpg" class="d-block show-image" />
+            <img src="assets/img/crs02.jpg" class="d-block show-image" />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -208,7 +207,7 @@
             </svg>
             <div class="container">
               <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
+                <h1>Gorgeous Collection.</h1>
                 <p>
                   Some representative placeholder content for the third slide of
                   this carousel.
@@ -245,8 +244,8 @@
 
   <!--Jumbotron-->
 
-<div class="container py-4">    
-    <div class="p-5 mb-4 rounded-3" style="background-image: url(assets/img/image/jumbo1.jpg); background-size: 100%">
+  <div class="container py-4">    
+     <div class="p-5 mb-4 rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo1.jpg); background-size: 100%">
       <div class="container-fluid py-5 text-light">
         <h1 class="display-5 fw-bold">Thousand of Masterpieces</h1>
         <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
@@ -256,24 +255,24 @@
 
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
-        <div class="h-100 p-5 text-white bg-dark rounded-3" style="background-image: url(assets/img/image/jumbo2.jpg); background-size: 100%">
+        <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo2.jpg); background-size: 100%">
           <h2>Become a Seller</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
           <a href="signup.html"><button class="btn btn-outline-light" type="button">Sign Up</button></a>
         </div>
       </div>  
       <div class="col-md-6">
-        <div class="h-100 p-5 text-white text-shadow bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo3.jpg); background-size: 100%">
+        <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo3.jpg); background-size: 100%">
           <h2>Check our Collection</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-          <a href="gallery.html"><button class="btn btn-light" type="button">Gallery</button></a>
+          <a href="gallery.html"><button class="btn btn-outline-light" type="button">Gallery</button></a>
         </div>
       </div>
-    </div>
+  </div>
 
-    </main>
+</main>
 
-
+<!--Footer-->
       <footer class="bg-dark" id="footer">
           <div class="container">
               <div class="row">
@@ -299,7 +298,7 @@
                   <div class="col-md-4 pt-5">
                       <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                       <ul class="list-unstyled text-light footer-link-list">
-                          <li><a class="text-decoration-none" href="shop.html#">Prints</a></li>
+                          <li><a class="text-decoration-none" href="shop.html">Prints</a></li>
                           <li><a class="text-decoration-none" href="shop.html">NFT's</a></li>
                           <li><a class="text-decoration-none" href="shop.html">Accesories</a></li>
                           <li><a class="text-decoration-none" href="shop.html">Souvenir</a></li>  
