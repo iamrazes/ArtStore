@@ -29,22 +29,22 @@
 
         <div class="form-floating text-dark">
           <input
-            type="firstname"
+            type="username"
             class="form-control"
-            id="floatingfirstame"
+            id="floatingusername"
             placeholder="Name"
           />
-          <label for="floatingInput">First Name</label>
+          <label for="floatingInput">username</label>
         </div>
 
         <div class="form-floating text-dark">
           <input
-            type="lastname"
+            type="name"
             class="form-control"
-            id="floatinglastnamenput"
+            id="floatingname"
             placeholder="Name"
           />
-          <label for="floatingInput">Last Name</label>
+          <label for="floatingInput">Name</label>
         </div>
 
         <div class="form-floating text-dark">

@@ -63,20 +63,20 @@
                   >
                 </li>
                 <li>
-                  <a href="shop.html" class="nav-link px-2 text-white">Shop</a>
+                  <a href="shop.php" class="nav-link px-2 text-white">Shop</a>
                 </li>
                 <li>
-                  <a href="gallery.html" class="nav-link px-2 text-white"
+                  <a href="gallery.php" class="nav-link px-2 text-white"
                     >Gallery</a
                   >
                 </li>
                 <li>
-                  <a href="contact.html" class="nav-link px-2 text-white"
+                  <a href="contact.php" class="nav-link px-2 text-white"
                     >Contact</a
                   >
                 </li>
                 <li>
-                  <a href="about.html" class="nav-link px-2 text-white"
+                  <a href="about.php" class="nav-link px-2 text-white"
                     >About</a
                   >
                 </li>
@@ -91,12 +91,12 @@
               </form>
               <div class="text-end">
                 <a
-                  href="signin.html"
+                  href="signin.php"
                   type="button"
                   class="btn btn-outline-light me-2"
                   >Login</a
                 >
-                <a href="signup.html" type="button" class="btn btn-warning"
+                <a href="signup.php" type="button" class="btn btn-warning"
                   >Sign-up</a
                 >
               </div>
@@ -118,7 +118,7 @@
               short so folks don’t simply skip over it entirely.
             </p>
             <p>
-              <a href="shop.html" class="btn btn-warning my-2">Go to Shopping</a>
+              <a href="shop.php" class="btn btn-warning my-2">Go to Shopping</a>
               <a href="index.php" class="btn btn-secondary my-2">Back Home</a>
             </p>
           </div>
@@ -205,11 +205,11 @@
               <div class="col-md-4 pt-5">
                   <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                   <ul class="list-unstyled text-light footer-link-list">
-                      <li><a class="text-decoration-none" href="shop.html">Prints</a></li>
-                      <li><a class="text-decoration-none" href="shop.html">NFT's</a></li>
-                      <li><a class="text-decoration-none" href="shop.html">Accesories</a></li>
-                      <li><a class="text-decoration-none" href="shop.html">Souvenir</a></li>  
-                      <li><a class="text-decoration-none" href="shop.html">Gifts</a></li>
+                      <li><a class="text-decoration-none" href="shop.php">Prints</a></li>
+                      <li><a class="text-decoration-none" href="shop.php">NFT's</a></li>
+                      <li><a class="text-decoration-none" href="shop.php">Accesories</a></li>
+                      <li><a class="text-decoration-none" href="shop.php">Souvenir</a></li>  
+                      <li><a class="text-decoration-none" href="shop.php">Gifts</a></li>
                   </ul>
               </div>
 
@@ -217,10 +217,10 @@
                   <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                   <ul class="list-unstyled text-light footer-link-list">
                       <li><a class="text-decoration-none" href="index.php">Home</a></li>
-                      <li><a class="text-decoration-none" href="about.html">About Us</a></li>
-                      <li><a class="text-decoration-none" href="contact.html">Shop Locations</a></li>
-                      <li><a class="text-decoration-none" href="contact.html">FAQs</a></li>
-                      <li><a class="text-decoration-none" href="contact.html">Contact</a></li>
+                      <li><a class="text-decoration-none" href="about.php">About Us</a></li>
+                      <li><a class="text-decoration-none" href="contact.php">Shop Locations</a></li>
+                      <li><a class="text-decoration-none" href="contact.php">FAQs</a></li>
+                      <li><a class="text-decoration-none" href="contact.php">Contact</a></li>
                   </ul>
               </div>
 

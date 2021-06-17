@@ -64,20 +64,20 @@
                   >
                 </li>
                 <li>
-                  <a href="shop.html" class="nav-link px-2 text-white">Shop</a>
+                  <a href="shop.php" class="nav-link px-2 text-white">Shop</a>
                 </li>
                 <li>
-                  <a href="gallery.html" class="nav-link px-2 text-white"
+                  <a href="gallery.php" class="nav-link px-2 text-white"
                     >Gallery</a
                   >
                 </li>
                 <li>
-                  <a href="contact.html" class="nav-link px-2 text-white"
+                  <a href="contact.php" class="nav-link px-2 text-white"
                     >Contact</a
                   >
                 </li>
                 <li>
-                  <a href="about.html" class="nav-link px-2 text-white"
+                  <a href="about.php" class="nav-link px-2 text-white"
                     >About</a
                   >
                 </li>
@@ -92,12 +92,12 @@
               </form>
               <div class="text-end">
                 <a
-                  href="signin.html"
+                  href="signin.php"
                   type="button"
                   class="btn btn-outline-light me-2"
                   >Login</a
                 >
-                <a href="signup.html" type="button" class="btn btn-warning"
+                <a href="signup.php" type="button" class="btn btn-warning"
                   >Sign-up</a
                 >
               </div>
@@ -155,7 +155,7 @@
                   the carousel.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-warning" href="signup.html"
+                  <a class="btn btn-lg btn-warning" href="signup.php"
                     >Sign up today</a
                   >
                 </p>
@@ -184,7 +184,7 @@
                   of the carousel.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-warning" href="about.html"
+                  <a class="btn btn-lg btn-warning" href="about.php"
                     >Learn more</a
                   >
                 </p>
@@ -213,7 +213,7 @@
                   this carousel.
                 </p>
                 <p>
-                  <a class="btn btn-lg btn-warning" href="gallery.html"
+                  <a class="btn btn-lg btn-warning" href="gallery.php"
                     >Browse gallery</a
                   >
                 </p>
@@ -249,7 +249,7 @@
       <div class="container-fluid py-5 text-light">
         <h1 class="display-5 fw-bold">Thousand of Masterpieces</h1>
         <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-        <a href="about.html"><button class="btn btn-warning btn-lg" type="button">Learn More</button></a>
+        <a href="about.php"><button class="btn btn-warning btn-lg" type="button">Learn More</button></a>
       </div>
     </div>
 
@@ -258,14 +258,14 @@
         <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo2.jpg); background-size: 100%">
           <h2>Become a Seller</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-          <a href="signup.html"><button class="btn btn-outline-light" type="button">Sign Up</button></a>
+          <a href="signup.php"><button class="btn btn-outline-light" type="button">Sign Up</button></a>
         </div>
       </div>  
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo3.jpg); background-size: 100%">
           <h2>Check our Collection</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
-          <a href="gallery.html"><button class="btn btn-outline-light" type="button">Gallery</button></a>
+          <a href="gallery.php"><button class="btn btn-outline-light" type="button">Gallery</button></a>
         </div>
       </div>
   </div>
@@ -298,11 +298,11 @@
                   <div class="col-md-4 pt-5">
                       <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                       <ul class="list-unstyled text-light footer-link-list">
-                          <li><a class="text-decoration-none" href="shop.html">Prints</a></li>
-                          <li><a class="text-decoration-none" href="shop.html">NFT's</a></li>
-                          <li><a class="text-decoration-none" href="shop.html">Accesories</a></li>
-                          <li><a class="text-decoration-none" href="shop.html">Souvenir</a></li>  
-                          <li><a class="text-decoration-none" href="shop.html">Gifts</a></li>
+                          <li><a class="text-decoration-none" href="shop.php">Prints</a></li>
+                          <li><a class="text-decoration-none" href="shop.php">NFT's</a></li>
+                          <li><a class="text-decoration-none" href="shop.php">Accesories</a></li>
+                          <li><a class="text-decoration-none" href="shop.php">Souvenir</a></li>  
+                          <li><a class="text-decoration-none" href="shop.php">Gifts</a></li>
                       </ul>
                   </div>
   
@@ -310,10 +310,10 @@
                       <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                       <ul class="list-unstyled text-light footer-link-list">
                           <li><a class="text-decoration-none" href="index.php">Home</a></li>
-                          <li><a class="text-decoration-none" href="about.html">About Us</a></li>
-                          <li><a class="text-decoration-none" href="contact.html">Shop Locations</a></li>
-                          <li><a class="text-decoration-none" href="contact.html">FAQs</a></li>
-                          <li><a class="text-decoration-none" href="contact.html">Contact</a></li>
+                          <li><a class="text-decoration-none" href="about.php">About Us</a></li>
+                          <li><a class="text-decoration-none" href="contact.php">Shop Locations</a></li>
+                          <li><a class="text-decoration-none" href="contact.php">FAQs</a></li>
+                          <li><a class="text-decoration-none" href="contact.php">Contact</a></li>
                       </ul>
                   </div>
   
