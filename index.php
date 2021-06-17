@@ -164,7 +164,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="assets/img/crs03.jpg" class="d-block show-image" />
+            <img src="assets/img/crs02.jpg" class="d-block show-image" />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -193,7 +193,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="assets/img/crs02.jpg" class="d-block show-image" />
+            <img src="assets/img/crs03.jpg" class="d-block show-image" />
             <svg
               class="bd-placeholder-img"
               width="100%"

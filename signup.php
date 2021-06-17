@@ -16,7 +16,7 @@
   </head>
   <body class="bg-dark text-white">
     <main class="form-signup text-center">
-      <form>
+      <form method="POST" action="/signup-process.php">
         <a href="index.php"
           ><img
             class="mb-4"
@@ -29,16 +29,18 @@
 
         <div class="form-floating text-dark">
           <input
+            name="username"
             type="username"
             class="form-control"
             id="floatingusername"
             placeholder="Name"
           />
-          <label for="floatingInput">username</label>
+          <label for="floatingInput">Username</label>
         </div>
 
         <div class="form-floating text-dark">
           <input
+            name="name"
             type="name"
             class="form-control"
             id="floatingname"
@@ -49,6 +51,7 @@
 
         <div class="form-floating text-dark">
           <input
+            name="email"
             type="email"
             class="form-control"
             id="floatingInput"
@@ -59,6 +62,7 @@
 
         <div class="form-floating text-dark">
           <input
+            name="password"
             type="password"
             class="form-control"
             id="floatingPassword"
