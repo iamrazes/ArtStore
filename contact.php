@@ -150,7 +150,7 @@
 
    <div class="container py-1 bg-dark">
     <div class="row py-5">
-        <form class="col-md-9 m-auto" method="post" role="form">
+        <form class="col-md-9 m-auto" role="form" method="POST" action="./contact-process.php">
             <div class="row">
                 <div class="form-group col-md-6 mb-3">
                     <label for="inputname" class="text-white">Name</label>
@@ -250,7 +250,7 @@
                   <label class="sr-only" for="subscribeEmail"></label>
                   <div class="input-group mb-2">
                       <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                      <a href="index.php"><div class="input-group-text btn-warning">Subscribe</div></a>
+                      <div class="input-group-text btn-warning">Subscribe</div>
                   </div>
               </div>
           </div>

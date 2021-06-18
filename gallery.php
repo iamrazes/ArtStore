@@ -381,7 +381,7 @@
                   <label class="sr-only" for="subscribeEmail"></label>
                   <div class="input-group mb-2">
                       <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                      <a href="index.php"><div class="input-group-text btn-warning">Subscribe</div></a>
+                      <div class="input-group-text btn-warning">Subscribe</div>
                   </div>
               </div>
           </div>
