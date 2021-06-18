@@ -25,7 +25,7 @@
             width="144"
             height="144"
         /></a>
-        <h1 class="h3 mb-3 fw-normal">Please sign up</h1>
+        <h1 class="h3 mb-3 fw-normal">Please Sign Up!</h1>
 
         <div class="form-floating text-dark">
           <input
