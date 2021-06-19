@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--Bootstrap 5-->
+    <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/headers.css" />
     <link rel="stylesheet" href="assets/css/carousel.css" />
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/shop.css">
+    <!-- <link rel="stylesheet" href="assets/css/shop.css"> -->
     <link rel="stylesheet" href="assets/css/map.css">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
@@ -99,7 +99,10 @@
                   class="btn btn-outline-light me-2"
                   >Login</a
                 >
-                <a href="signup.php" type="button" class="btn btn-warning"
+                <a 
+                  href="signup.php" 
+                  type="button" 
+                  class="btn btn-warning"
                   >Sign-up</a
                 >
               </div>

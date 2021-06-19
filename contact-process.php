@@ -39,7 +39,7 @@ if (mysqli_query($conn, $sql)){
                 height="144"
             /></a>
             <h1 class="h1 mb-3 fw-normal">Thank you!</h1>
-            <h1 class="h5 mb-3 fw-normal">Your message are sent to us.</h1>
+            <h1 class="h5 mb-3 fw-normal">Your messages are sent to us.</h1>
             <br>
             <br>
             <a href="index.php" type="button" class="bw-100 btn btn-lg btn-warning">Go Back</a>

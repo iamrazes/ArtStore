@@ -23,9 +23,10 @@
       <div class="album py-5 bg-light">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -35,7 +36,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -45,7 +46,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -55,7 +56,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -65,7 +66,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -75,7 +76,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -85,7 +86,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -95,7 +96,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -105,7 +106,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                 <title>Placeholder</title>
                 <rect width="100%" height="100%" fill="#55595c" />
                 <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -115,7 +116,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -125,7 +126,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -135,7 +136,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -145,7 +146,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -155,7 +156,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -165,7 +166,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -175,7 +176,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -185,7 +186,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">
@@ -195,7 +196,7 @@
             
             <div class="col">
               <div class="card shadow-sm">
-                <img src="assets/img/image/gallery01.jpg" class="d-block show-image" />
+                <img src="assets/img/image/gallery/gallery01.jpg" class="d-block show-image" />
                   <title>Placeholder</title>
                   <rect width="100%" height="100%" fill="#55595c" />
                   <text x="50%" y="50%" fill="#eceeef" dy=".3em">

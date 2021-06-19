@@ -30,7 +30,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/crs01.jpg" class="d-block show-image" />
+            <img src="assets/img/image/carousel/crs01.jpg" class="d-block show-image" />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -44,8 +44,8 @@
             </svg>
             <div class="container">
               <div class="carousel-caption text-start">
-                <h1>Masterpieces.</h1>
-                <p>
+                <h1 id="shadow">Masterpieces.</h1>
+                <p id="shadow">
                   Some representative placeholder content for the first slide of
                   the carousel.
                 </p>
@@ -59,7 +59,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="assets/img/crs02.jpg" class="d-block show-image" />
+            <img src="assets/img/image/carousel/crs02.jpg" class="d-block show-image" />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -73,8 +73,8 @@
             </svg>
             <div class="container">
               <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>
+                <h1 id="shadow">Another example headline.</h1>
+                <p id="shadow">
                   Some representative placeholder content for the second slide
                   of the carousel.
                 </p>
@@ -88,7 +88,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="assets/img/crs03.jpg" class="d-block show-image" />
+            <img src="assets/img/image/carousel/crs03.jpg" class="d-block show-image" />
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -102,8 +102,8 @@
             </svg>
             <div class="container">
               <div class="carousel-caption text-end">
-                <h1>Gorgeous Collection.</h1>
-                <p>
+                <h1 id="shadow">Gorgeous Collection.</h1>
+                <p id="shadow">
                   Some representative placeholder content for the third slide of
                   this carousel.
                 </p>
@@ -140,7 +140,7 @@
   <!--Jumbotron-->
 
   <div class="container py-4">    
-     <div class="p-5 mb-4 rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo1.jpg); background-size: 100%">
+     <div class="p-5 mb-4 rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo/jumbo1.jpg); background-size: 100%">
       <div class="container-fluid py-5 text-light">
         <h1 class="display-5 fw-bold">Thousand of Masterpieces</h1>
         <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
@@ -150,15 +150,15 @@
 
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
-        <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo2.jpg); background-size: 100%">
+        <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo/jumbo2.jpg); background-size: 100%">
           <h2>Become a Seller</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
           <a href="signup.php"><button class="btn btn-outline-light" type="button">Sign Up</button></a>
         </div>
       </div>  
       <div class="col-md-6">
-        <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo3.jpg); background-size: 100%">
-          <h2>Check our Collection</h2>
+        <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo/jumbo3.jpg); background-size: 100%">
+          <h2>Check our Collections</h2>
           <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
           <a href="gallery.php"><button class="btn btn-outline-light" type="button">Gallery</button></a>
         </div>
