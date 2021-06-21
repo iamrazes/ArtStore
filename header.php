@@ -11,18 +11,18 @@
     <link rel="stylesheet" href="assets/css/carousel.css" />
     <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <!-- <link rel="stylesheet" href="assets/css/shop.css"> -->
+    <link rel="stylesheet" href="assets/css/shop.css">
     <link rel="stylesheet" href="assets/css/map.css">
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
-
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    
 
     <title>ArtStore | Buy High Quality Arts</title>
   </head>
   <body>
-    <!--Header-->
+  
     <header>
       <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid">
@@ -94,7 +94,7 @@
               </form>
               <div class="text-end">
                 <a
-                  href="signin.php"
+                  href="login.php"
                   type="button"
                   class="btn btn-outline-light me-2"
                   >Login</a
@@ -109,5 +109,5 @@
             </div>
           </div>
         </div>
-      </nav>
+      </nav> 
     </header>

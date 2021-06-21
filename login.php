@@ -7,7 +7,7 @@
 
     <!--Bootstrap 5-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/signin.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
     
     <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
@@ -25,7 +25,7 @@
             width="144"
             height="144"
         /></a>
-        <h1 class="h3 mb-3 fw-normal">Please Log in!</h1>
+        <h1 class="h3 mb-3 fw-normal">Please Login!</h1>
 
         <div class="form-floating text-dark">
           <input
@@ -53,7 +53,7 @@
           </label>
         </div>
         <button class="w-100 btn btn-lg btn-warning" type="submit">
-          Sign in
+          Login
         </button>
         <p class="mt-5 mb-3 text-muted">&copy; 2021 ArtStore</p>
       </form>

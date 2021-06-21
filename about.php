@@ -9,9 +9,8 @@
           <div class="col-lg-6 col-md-8 mx-auto">
             <h1 class="fw-light text-light">About Us</h1>
             <p class="lead  text-light">
-              Something short and leading about the collection below—its
-              contents, the creator, etc. Make it short and sweet, but not too
-              short so folks don’t simply skip over it entirely.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
             <p>
               <a href="shop.php" class="btn btn-warning my-2">Go to Shopping</a>

@@ -31,17 +31,6 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/img/image/carousel/crs01.jpg" class="d-block show-image" />
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <rect width="100%" height="100%" fill="#777" />
-            </svg>
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1 id="shadow">Masterpieces.</h1>
@@ -59,18 +48,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="assets/img/image/carousel/crs02.jpg" class="d-block show-image" />
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <rect width="100%" height="100%" fill="#777" />
-            </svg>
+            <img src="assets/img/image/carousel/crs02.jpg" class="d-block show-image bd-placeholder-img " />
             <div class="container">
               <div class="carousel-caption">
                 <h1 id="shadow">Another example headline.</h1>
@@ -89,17 +67,6 @@
 
           <div class="carousel-item">
             <img src="assets/img/image/carousel/crs03.jpg" class="d-block show-image" />
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
-              aria-hidden="true"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <rect width="100%" height="100%" fill="#777" />
-            </svg>
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1 id="shadow">Gorgeous Collection.</h1>
@@ -143,7 +110,7 @@
      <div class="p-5 mb-4 rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo/jumbo1.jpg); background-size: 100%">
       <div class="container-fluid py-5 text-light">
         <h1 class="display-5 fw-bold">Thousand of Masterpieces</h1>
-        <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
+        <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <a href="about.php"><button class="btn btn-warning btn-lg" type="button">Learn More</button></a>
       </div>
     </div>
@@ -152,14 +119,14 @@
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo/jumbo2.jpg); background-size: 100%">
           <h2>Become a Seller</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <a href="signup.php"><button class="btn btn-outline-light" type="button">Sign Up</button></a>
         </div>
       </div>  
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo/jumbo3.jpg); background-size: 100%">
           <h2>Check our Collections</h2>
-          <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <a href="gallery.php"><button class="btn btn-outline-light" type="button">Gallery</button></a>
         </div>
       </div>
