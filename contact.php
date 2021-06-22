@@ -45,7 +45,7 @@
 
    <div class="container py-1 bg-dark">
     <div class="row py-5">
-        <form class="col-md-9 m-auto" role="form" method="POST" action="./contact-process.php">
+        <form class="col-md-9 m-auto" role="form" method="POST" action="./includes/contact-process.php">
             <div class="row">
                 <div class="form-group col-md-6 mb-3">
                     <label for="inputname" class="text-white">Name</label>

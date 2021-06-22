@@ -45,7 +45,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-01.php">
+                    <a href="pages/pages/product-01.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -85,7 +85,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-02.php">
+                    <a href="pages/product-02.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -125,7 +125,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-03.php">
+                    <a href="pages/product-03.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -166,7 +166,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-04.php">
+                    <a href="pages/product-04.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -206,7 +206,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-05.php">
+                    <a href="pages/product-05.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -246,7 +246,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-06.php">
+                    <a href="pages/product-06.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -286,7 +286,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-06.php">
+                    <a href="pages/product-06.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -326,7 +326,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-06.php">
+                    <a href="pages/product-06.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
@@ -366,7 +366,7 @@ include_once 'header.php'
 
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                    <a href="product-06.php">
+                    <a href="pages/product-06.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                       <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>

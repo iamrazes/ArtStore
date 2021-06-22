@@ -16,7 +16,7 @@
   </head>
   <body class="bg-dark text-white">
     <main class="form-signup text-center">
-      <form method="POST" action="./signup-process.php">
+      <form method="POST" action="./includes/signup-process.php">
         <a href="index.php"
           ><img
             class="mb-4"
