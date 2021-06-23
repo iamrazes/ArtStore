@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -70,8 +74,14 @@
               <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search" />
             </form>
             <div class="text-end">
-              <a href="login.php" type="button" class="btn btn-outline-light me-2">Login</a>
-              <a href="signup.php" type="button" class="btn btn-warning">Sign-up</a>
+              <?php
+              if (isset($_SESSION['email']) && isset($_SESSION['password'])) {
+                echo '<a href="./includes/logout.php" type="button" class="btn btn-outline-light me-2">Logout</a>';
+              } else {
+                echo '<a href="login.php" type="button" class="btn btn-outline-light me-2">Login</a>
+                  <a href="signup.php" type="button" class="btn btn-warning">Sign-up</a>';
+              }
+              ?>
             </div>
           </div>
         </div>

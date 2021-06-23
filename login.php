@@ -18,17 +18,17 @@
 
 <body class="bg-dark text-white">
   <main class="form-signin text-center">
-    <form>
+    <form method="POST" action="./includes/login-process.php">
       <a href="index.php"><img class="mb-4" src="assets/img/icons/logo.png" alt="" width="144" height="144" /></a>
       <h1 class="h3 mb-3 fw-normal">Please Login!</h1>
 
       <div class="form-floating text-dark">
-        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+        <input name="email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
         <label for="floatingInput">Email address</label>
       </div>
 
       <div class="form-floating text-dark">
-        <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
+        <input name="password" type="password" class="form-control" id="floatingPassword" placeholder="Password" />
         <label for="floatingPassword">Password</label>
       </div>
 
@@ -37,7 +37,7 @@
           <input type="checkbox" value="remember-me" /> Remember me
         </label>
       </div>
-      <button class="w-100 btn btn-lg btn-warning" type="submit">
+      <button class="w-100 btn btn-lg btn-warning" type="submit" name="submit">
         Login
       </button>
       <p class="mt-5 mb-3 text-muted">&copy; 2021 ArtStore</p>
