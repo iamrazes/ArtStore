@@ -92,7 +92,7 @@ include_once 'header.php'
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 text-white bg-dark rounded-3" id="shadow" style="background-image: url(assets/img/image/jumbo/jumbo3.jpg); background-size: 100%">
-          <h2>Check our Collections</h2>
+          <h2>Check our Collections ganteng</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <a href="gallery.php"><button class="btn btn-outline-light" type="button">Gallery</button></a>
         </div>
