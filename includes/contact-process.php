@@ -42,7 +42,7 @@ if (mysqli_query($conn, $sql)){
             <h1 class="h5 mb-3 fw-normal">Your messages are sent to us.</h1>
             <br>
             <br>
-            <a href="../index.php" type="button" class="bw-100 btn btn-lg btn-warning">Go Back</a>
+            <a href="../index.php" type="button" class="bw-100 btn btn-lg btn-warning">Homepage</a>
             <p class="mt-5 mb-3 text-muted">&copy; 2021 ArtStore</p>
           </form>
         </main>

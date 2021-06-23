@@ -41,7 +41,8 @@ if (mysqli_query($conn, $sql)){
             <h1 class="h5 mb-3 fw-normal">You are now registered to our database.</h1>
             <br>
             <br>
-            <a href="../index.php" type="button" class="bw-100 btn btn-lg btn-warning">Go Back</a>
+            <a href="../index.php" type="button" class="bw-100 btn btn-lg btn-outline-light">Homepage</a>
+            <a href="../login.php" type="button" class="bw-100 btn btn-lg btn-warning">Login</a>
             <p class="mt-5 mb-3 text-muted">&copy; 2021 ArtStore</p>
           </form>
         </main>
