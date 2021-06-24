@@ -23,22 +23,22 @@
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="../shop.php">Prints</a></li>
-                    <li><a class="text-decoration-none" href="../shop.php">NFT's</a></li>
-                    <li><a class="text-decoration-none" href="../shop.php">Accesories</a></li>
-                    <li><a class="text-decoration-none" href="../shop.php">Souvenir</a></li>
-                    <li><a class="text-decoration-none" href="../shop.php">Gifts</a></li>
+                    <li><a class="text-decoration-none" href="shop.php">Prints</a></li>
+                    <li><a class="text-decoration-none" href="shop.php">NFT's</a></li>
+                    <li><a class="text-decoration-none" href="shop.php">Accesories</a></li>
+                    <li><a class="text-decoration-none" href="shop.php">Souvenir</a></li>
+                    <li><a class="text-decoration-none" href="shop.php">Gifts</a></li>
                 </ul>
             </div>
 
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="../index.php">Home</a></li>
-                    <li><a class="text-decoration-none" href="../about.php">About Us</a></li>
-                    <li><a class="text-decoration-none" href="../contact.php">Shop Locations</a></li>
-                    <li><a class="text-decoration-none" href="../contact.php">FAQs</a></li>
-                    <li><a class="text-decoration-none" href="../contact.php">Contact</a></li>
+                    <li><a class="text-decoration-none" href="index.php">Home</a></li>
+                    <li><a class="text-decoration-none" href="about.php">About Us</a></li>
+                    <li><a class="text-decoration-none" href="contact.php">Shop Locations</a></li>
+                    <li><a class="text-decoration-none" href="contact.php">FAQs</a></li>
+                    <li><a class="text-decoration-none" href="contact.php">Contact</a></li>
                 </ul>
             </div>
 
@@ -51,7 +51,7 @@
             <div class="col-auto me-auto">
                 <ul class="list-inline text-left footer-icons">
                     <li class="list-inline-item border border-light rounded-circle text-center">
-                        <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fa fa-facebook fa-lg fa-fw"></i></a>
+                        <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fa fa-facebook fa-lg"></i></a>
                     </li>
                     <li class="list-inline-item border border-light rounded-circle text-center">
                         <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram fa-lg fa-fw"></i></a>
@@ -89,8 +89,8 @@
 </footer>
 
 <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

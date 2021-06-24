@@ -76,7 +76,9 @@ session_start();
             <div class="text-end">
               <?php
               if (isset($_SESSION['email']) && isset($_SESSION['password'])) {
-                echo '<a href="./includes/logout.php" type="button" class="btn btn-outline-light me-2">Logout</a>';
+                echo '<a href="./includes/logout.php" type="button" class="btn btn-warning me-2">Logout</a>
+                <a href="./profile/" type="button" class="btn btn-outline-light "><li class="fa fa-user"></li></a>'
+                ;
               } else {
                 echo '<a href="login.php" type="button" class="btn btn-outline-light me-2">Login</a>
                   <a href="signup.php" type="button" class="btn btn-warning">Sign-up</a>';
