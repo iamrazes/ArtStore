@@ -29,7 +29,7 @@ if (mysqli_query($conn, $sql)){
       <body class="bg-dark text-white">
         <main class="form-signup text-center">
           <form>
-            <a href="index.php"
+            <a href="../index.php"
               ><img
                 class="mb-4"
                 src="../assets/img/icons/logo.png"
@@ -42,7 +42,7 @@ if (mysqli_query($conn, $sql)){
             <br>
             <br>
             <a href="../index.php" type="button" class="bw-100 btn btn-lg btn-outline-light">Homepage</a>
-            <a href="../login.php" type="button" class="bw-100 btn btn-lg btn-warning">Login</a>
+            <a href="../pages/login/" type="button" class="bw-100 btn btn-lg btn-warning">Login</a>
             <p class="mt-5 mb-3 text-muted">&copy; 2021 ArtStore</p>
           </form>
         </main>
