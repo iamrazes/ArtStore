@@ -41,7 +41,7 @@
                                     <?php
                                     $no = 0;
                                     $admin=$mysqli->query("SELECT * FROM users");
-                                    while($m=mysqli_fetch_array($admin));
+                                    while($m=mysqli_fetch_array($admin)){
                                     $no++;
                                     ?>
                                     <tr>
@@ -51,6 +51,7 @@
                                         <td><?php echo $m['email']; ?></td>
                                         <td><?php echo $m['password']; ?></td>
                                     </tr>
+                                        <?php } ?>
                                 </tbody>
                             </table>
                         </div>
