@@ -1,13 +1,21 @@
 <?php
 include './config/connect.php';
-$conn = mysqli_connect("localhost","root","","artstore");
+$conn = mysqli_connect("localhost", "root", "", "artstore");
 
-$username = $_POST['username'];
-$name = $_POST['name'];
-$email = $_POST['email'];
-$password = $_POST['password'];
+if (isset($_POST['submit'])) {
 
-$mysqli->query("UPDATE users SET name='$name', email='$email', password='$password', WHERE $id='id', ");
+    $id = $_POST['id'];
+    $username = $_POST['username'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
 
-    echo "<script>alert('Data updated successfully')</script>";
-    echo "<script type='text/javascript'> document.location = 'index.php?page=data_users';</script>";
+    $sql = "UPDATE users SET username='$username', name='$name', email='$email', password='$password' WHERE id='$id'";
+
+    if (mysqli_query($conn, $sql)) {
+        echo "<script>alert('Data updated successfully')</script>";
+        echo "<script type='text/javascript'> document.location = 'index.php?page=data_users';</script>";
+    } else {
+        echo 'update failed';
+    }
+}
