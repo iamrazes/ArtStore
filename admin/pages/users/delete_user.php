@@ -6,5 +6,3 @@ $conn = mysqli_connect("localhost","root","","artstore");
     
     echo "<script>alert('Data Deleted successfully')</script>";
     echo "<script type='text/javascript'> document.location = 'index.php?page=data_users';</script>";
-
-?>

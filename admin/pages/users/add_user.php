@@ -2,7 +2,6 @@
 include './config/connect.php';
 $conn = mysqli_connect("localhost", "root", "", "artstore");
 
-$id = $_POST['id'];
 $username = $_POST['username'];
 $name = $_POST['name'];
 $email = $_POST['email'];
