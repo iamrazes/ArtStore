@@ -1,5 +1,4 @@
 <?php
-error_reporting(error_reporting() & ~E_NOTICE);
 include 'config/connect.php';
 
 if (isset($_GET['page'])) {
@@ -7,6 +6,18 @@ if (isset($_GET['page'])) {
     switch ($page) {
         case 'data_users':
             include 'pages/users/data_users.php';
+            break;
+        case 'add_user':
+            include 'pages/users/add_user.php';
+            break;
+        case 'update_user':
+            include 'pages/users/update_user.php';
+            break;
+        case 'edit_user':
+            include 'pages/users/edit_user.php';
+            break;
+        case 'delete_user':
+            include 'pages/users/delete_user.php';
             break;
         case 'data_products':
             include 'pages/products/data_products.php';

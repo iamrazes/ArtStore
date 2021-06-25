@@ -23,22 +23,22 @@
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="shop.php">Prints</a></li>
-                    <li><a class="text-decoration-none" href="shop.php">NFT's</a></li>
-                    <li><a class="text-decoration-none" href="shop.php">Accesories</a></li>
-                    <li><a class="text-decoration-none" href="shop.php">Souvenir</a></li>
-                    <li><a class="text-decoration-none" href="shop.php">Gifts</a></li>
+                    <li><a class="text-decoration-none" href="../shop/">Prints</a></li>
+                    <li><a class="text-decoration-none" href="../shop/">NFT's</a></li>
+                    <li><a class="text-decoration-none" href="../shop/">Accesories</a></li>
+                    <li><a class="text-decoration-none" href="../shop/">Souvenir</a></li>
+                    <li><a class="text-decoration-none" href="../shop/">Gifts</a></li>
                 </ul>
             </div>
 
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="index.php">Home</a></li>
-                    <li><a class="text-decoration-none" href="about.php">About Us</a></li>
-                    <li><a class="text-decoration-none" href="contact.php">Shop Locations</a></li>
-                    <li><a class="text-decoration-none" href="contact.php">FAQs</a></li>
-                    <li><a class="text-decoration-none" href="contact.php">Contact</a></li>
+                    <li><a class="text-decoration-none" href="../../">Home</a></li>
+                    <li><a class="text-decoration-none" href="../about/">About Us</a></li>
+                    <li><a class="text-decoration-none" href="../contact/">Shop Locations</a></li>
+                    <li><a class="text-decoration-none" href="../contact/">FAQs</a></li>
+                    <li><a class="text-decoration-none" href="../contact/">Contact</a></li>
                 </ul>
             </div>
 
