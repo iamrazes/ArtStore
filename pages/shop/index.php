@@ -11,9 +11,6 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
         <p class="lead">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <p>
-          <a href="index.php" class="btn btn-secondary my-2">Home</a>
-        </p>
       </div>
     </div>
   </section>
@@ -24,14 +21,12 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
 
         <div class="col">
           <div class="card shadow-sm">
-
             <img src="../../assets/img/image/products/product01.jpg" class="d-block show-image" />
             <title>Products</title>
             <rect width="100%" height="100%" fill="#55595c" />
             <text x="50%" y="50%" fill="#eceeef" dy=".3em">
               <div class="card-body text-center ">
                 <p class="card-text"><b>"Bandit"</b><br> Artist : Guweiz</p>
-
                 <div class="rating text-center text-warning">
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
@@ -39,25 +34,20 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star text-muted"></i>
                 </div>
-
                 <p class="card-text"><b>$ 42.0</b></p>
-
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a href="pages/product-01.php">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                         <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Wishlist</button>
                   </div>
                   <li id="bullet">
                     <a class="text-dark" href="#love-it"><i class="fa fa-heart-o fa-lg"></i></a>
                     <a class="text-dark" href="#bookmark-it"><i class="fa fa-bookmark-o fa-lg"></i></a>
                   </li>
                 </div>
-
               </div>
-
           </div>
         </div>
 

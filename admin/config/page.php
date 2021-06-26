@@ -22,6 +22,9 @@ if (isset($_GET['page'])) {
         case 'data_products':
             include 'pages/products/data_products.php';
             break;
+        case 'add_product':
+            include 'pages/products/add_product.php';
+            break;
         case 'data_message':
             include 'pages/message/data_message.php';
             break;
@@ -29,7 +32,17 @@ if (isset($_GET['page'])) {
             include 'pages/gallery/data_gallery.php';
             break;
         default:
-            echo '404 NOT FOUND';
+            echo '
+<section class="content-header">
+    <div class="container-fluid">
+            <div class="text-center">
+                <h1 style=font-size:100px>ERROR</h1>
+                <h1 style=font-size:185px>404</h1>
+                <h1 style=font-size:38px>PAGE NOT FOUND</h1>
+            </div>
+    </div><!-- /.container-fluid -->
+</section>
+            ';
     }
 } else {
     include "pages/homepage.php";
