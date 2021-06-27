@@ -6,18 +6,21 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
 
   <section class="py-4 text-center container">
     <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light text-light">About Us</h1>
-        <p class="lead  text-light">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
-        <p>
-          <a href="../../pages/shop/" class="btn btn-warning my-2">Go to Shopping</a>
-          <a href="../../" class="btn btn-secondary my-2">Homepage</a>
-        </p>
-      </div>
       <div>
-      
+        <h1 class="fw-light text-light">About Us</h1>
+      </div>
+
+      <div>
+        <div class="px-4 py-5 my-5 pt-0 text-center">
+          <img class="d-block mx-auto mb-4" src="../../assets/img/icons/logo.png" alt="" width=240" height="240">
+          <h1 style="font-size:100px" class="display-5 text-white pt-3">ArtStore</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 pt-3 text-white">Lorem ipsum dolor sit amet consectetur adipiscing elit suspendisse enim, laoreet quisque curae neque tempus litora lacus accumsan habitasse ridiculus, non euismod leo inceptos mollis arcu maecenas proin.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-warning btn-lg px-4 gap-3">Subscribe</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
