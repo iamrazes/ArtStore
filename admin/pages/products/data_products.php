@@ -37,6 +37,7 @@
                                     <th>Stock</th>
                                     <th>Sold</th>
                                     <th>Pictures</th>
+                                    <th> </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -57,11 +58,7 @@
                                         <td><?php echo $m['sold']; ?></td>
                                         <td><?php echo $m['pictures']; ?></td>
                                         <td>
-                                            <a href="">
-                                                <button button class="btn btn-danger" role="button" title="Edit Data"><i class="fa fa-edit"></i>
-                                                </button>
-                                            </a>
-                                            <a href="" onclick="return confirm('Are you sure to delete the data?')">
+                                            <a href="index.php?page=delete_product&opsi=<?php echo $m['id']; ?>" onclick="return confirm('Are you sure to delete the data?')">
                                                 <button button class="btn btn-danger" role="button" title="Delete Data"><i class="fa fa-trash"></i>
                                                 </button>
                                             </a>
@@ -97,53 +94,53 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form method="post" action="index.php?page=add_product"  enctype="multipart/form-data">
+                <form method="post" action="index.php?page=add_product" enctype="multipart/form-data">
                     <div class="card-body">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Title</label>
-                            <input name="title" type="title" class="form-control" id="exampleInputEmail1" placeholder="Title...">
+                            <input required name="title" type="title" class="form-control" id="exampleInputEmail1" placeholder="Title...">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Artist</label>
-                            <input name="artist" type="artist" class="form-control" id="exampleInputEmail1" placeholder="Artist name...">
+                            <input required name="artist" type="artist" class="form-control" id="exampleInputEmail1" placeholder="Artist name...">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Price</label>
-                            <input name="price" type="price" class="form-control" id="exampleInputEmail1" placeholder="Price...">
+                            <input required name="price" type="number" class="form-control" id="exampleInputEmail1" placeholder="Price...">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Rating</label>
-                            <input name="rating" type="rating" class="form-control" id="exampleInputEmail1" placeholder="Rating...">
+                            <input required name="rating" type="number" class="form-control" id="exampleInputEmail1" placeholder="Rating...">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Description</label>
-                            <input name="description" type="description" class="form-control" id="exampleInputEmail1" placeholder="Descriptions...">
+                            <input required name="description" type="text" class="form-control" id="exampleInputEmail1" placeholder="Descriptions...">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Stock</label>
-                            <input name="stock" type="stock" class="form-control" id="exampleInputEmail1" placeholder="Stocks....">
+                            <input required name="stock" type="number" class="form-control" id="exampleInputEmail1" placeholder="Stocks....">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Sold</label>
-                            <input name="sold" type="sold" class="form-control" id="exampleInputEmail1" placeholder="Sold...">
+                            <input required name="sold" type="number" class="form-control" id="exampleInputEmail1" placeholder="Sold...">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputFile">Pictures</label>
                             <div class="input-group">
                                 <div class="custom-file">
-                                    <input type="pictures" class="custom-file-input" id="exampleInputFile" name="pictures">
-                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                    <input required type="file" class="custom-file-input" id="exampleInputFile" name="pictures">
+                                    <label class="custom-file-label text-muted" for="exampleInputFile" >Choose file...</label>
                                 </div>
-                                <div class="input-group-append">
+                                <!-- <div class="input-group-append">
                                     <span class="input-group-text">Upload</span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
                     <!-- /.card-body -->
 
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary" name="submit">Submit</button>
                     </div>
                 </form>
             </div>

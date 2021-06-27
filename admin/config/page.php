@@ -25,6 +25,9 @@ if (isset($_GET['page'])) {
         case 'add_product':
             include 'pages/products/add_product.php';
             break;
+        case 'delete_product':
+            include 'pages/products/delete_product.php';
+            break;
         case 'data_message':
             include 'pages/message/data_message.php';
             break;
