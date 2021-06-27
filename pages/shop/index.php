@@ -1,6 +1,6 @@
 <?php
 include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
-include "$_SERVER[DOCUMENT_ROOT]/ArtStore/includes/conn.php"
+include "$_SERVER[DOCUMENT_ROOT]/ArtStore/includes/config.php"
 ?>
 
 <main>
@@ -20,21 +20,20 @@ include "$_SERVER[DOCUMENT_ROOT]/ArtStore/includes/conn.php"
     <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
 
-
-        <?php
+      <?php
         $no = 0;
-        $admin = $mysqli->query("SELECT * FROM products");
+        $admin = $conn->query("SELECT * FROM products");
         while ($m = mysqli_fetch_array($admin)) {
           $no++;
         ?>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="<?php echo '/uploads/' . $data['pictures'] ?>" class="d-block show-image" />
+              <img src="<?= '../../admin/pages/products/uploads/' . $m['pictures'] ?>" class="d-block show-image" />
               <title><?php echo $m['title']; ?></title>
               <rect width="100%" height="100%" fill="#55595c" />
               <text x="50%" y="50%" fill="#eceeef" dy=".3em">
                 <div class="card-body text-center ">
-                  <p class="card-text"><b>"<?php echo $m['title']; ?>"</b><br> <?php echo $m['artist']; ?></p>
+                  <p class="card-text"><b>"<?php echo $m['title']; ?>"</b><br>Artist : <?php echo $m['artist']; ?></p>
                   <div class="rating text-center text-warning">
                     <i class="fa fa-star"></i>
                     <i class="fa fa-star"></i>

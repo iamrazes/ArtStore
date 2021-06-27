@@ -33,7 +33,7 @@
                                     <th>Name</th>
                                     <th>Email Address</th>
                                     <th>Password</th>
-                                    <th>Option</th>
+                                    <th> </th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -49,7 +49,7 @@
                                         <td><?php echo $m['name']; ?></td>
                                         <td><?php echo $m['email']; ?></td>
                                         <td><?php echo $m['password']; ?></td>
-                                        <td>
+                                        <td class="text-center">
                                             <a href="index.php?page=edit_user&opsi=<?php echo $m['id']; ?>">
                                                 <button button class="btn btn-danger" role="button" title="Edit Data"><i class="fa fa-edit"></i>
                                                 </button>

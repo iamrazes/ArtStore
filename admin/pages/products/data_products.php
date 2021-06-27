@@ -57,7 +57,7 @@
                                         <td><?php echo $m['stock']; ?></td>
                                         <td><?php echo $m['sold']; ?></td>
                                         <td><?php echo $m['pictures']; ?></td>
-                                        <td>
+                                        <td class="text-center">
                                             <a href="index.php?page=delete_product&opsi=<?php echo $m['id']; ?>" onclick="return confirm('Are you sure to delete the data?')">
                                                 <button button class="btn btn-danger" role="button" title="Delete Data"><i class="fa fa-trash"></i>
                                                 </button>
