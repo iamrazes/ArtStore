@@ -163,7 +163,7 @@ session_start();
     <div class="container py-4">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5 pb-1 pt-1">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="assets/img/image/carousel/crs02.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          <img src="assets/img/image/samples.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold lh-1 mb-3 pb-1 text-white ">Produced by amazing artist around the globe</h1>
@@ -339,7 +339,7 @@ session_start();
       <div class="row">
 
         <div class="col-md-4 pt-5">
-          <h2 class="text-white" class="h2 class=" text-white" text-warning border-bottom pb-3 border-light logo">ARTSTORE</h2 class="text-white">
+          <h2 class="h2 text-warning border-bottom pb-3 border-light logo">ARTSTORE</h2 class="text-white">
           <ul class="list-unstyled text-light footer-link-list">
             <li>
               <i class="fa fa-map-marker fa-fw"></i>

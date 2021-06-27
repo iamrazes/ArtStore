@@ -8,7 +8,7 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
         <div class="row">
             <div class="col-lg-5 mt-5">
                 <div class="card mb-3">
-                    <img class="card-img img-fluid" src="../../assets/img/image/products/product01.jpg" alt="Card image cap" id="product-detail">
+                    <img class="card-img img-fluid" src="../../admin/pages/products/uploads/product01.jpg" alt="Card image cap" id="product-detail">
                 </div>
                 <div class="row">
                     <!--Start Carousel Wrapper-->
@@ -21,22 +21,22 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
             <div class="col-lg-7 mt-5">
                 <div class="card">
                     <div class="card-body">
-                        <h1 class="h2">Active Wear</h1>
-                        <p class="h3 py-2">$25.00</p>
+                        <h1 class="h2">Bandit</h1>
+                        <p class="h3 py-2">$42.00</p>
                         <p class="py-2">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-secondary"></i>
-                            <span class="list-inline-item text-dark">Rating 4.8 | 36 Comments</span>
+                            <span class="list-inline-item text-dark">Rating 4 | 0 Comments</span>
                         </p>
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <h6>Brand:</h6>
+                                <h6>Artist:</h6>
                             </li>
                             <li class="list-inline-item">
-                                <p class="text-muted"><strong>Easy Wear</strong></p>
+                                <p class="text-muted"><strong>Guweiz</strong></p>
                             </li>
                         </ul>
 
