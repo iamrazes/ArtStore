@@ -37,7 +37,7 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
                 <p class="card-text"><b>$ 42.0</b></p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="pages/product-01.php">
+                    <a href="../product-details/">
                       <button type="button" class="btn btn-sm btn-outline-secondary" href="index.php">
                         <i class="text-dark fa fa-shopping-cart fa-lg"></i> Cart</button>
                     </a>

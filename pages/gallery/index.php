@@ -11,10 +11,6 @@ include_once "$_SERVER[DOCUMENT_ROOT]/ArtStore/pages/header.php";
         <p class="lead">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
-        <p>
-          <a href="shop.php" class="btn btn-warning my-2">Go to Shopping</a>
-          <a href="index.php" class="btn btn-secondary my-2">Back Home</a>
-        </p>
       </div>
     </div>
   </section>

@@ -17,11 +17,10 @@ session_start();
   <link rel="stylesheet" href="../../assets/css/footer.css">
   <link rel="stylesheet" href="../../assets/css/custom.css">
   <link rel="stylesheet" href="../../assets/css/shop.css">
-  <link rel="stylesheet" href="../../assets/css/map.css">  
+  <link rel="stylesheet" href="../../assets/css/map.css">
   <link rel="apple-touch-icon" href="../../assets/img/apple-icon.png">
   <link rel="shortcut icon" type="image/x-icon" href="../../assets/img/icons/favicon.ico">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
   <title>ArtStore | Buy High Quality Arts</title>
 </head>
@@ -77,8 +76,7 @@ session_start();
               <?php
               if (isset($_SESSION['email']) && isset($_SESSION['password'])) {
                 echo '<a href="../../includes/logout.php" type="button" class="btn btn-warning me-2">Logout</a>
-                <a href="../profile/" type="button" class="btn btn-outline-light "><li class="fa fa-user"></li></a>'
-                ;
+                <a href="../profile/" type="button" class="btn btn-outline-light "><li class="fa fa-user"></li></a>';
               } else {
                 echo '<a href="../login/" type="button" class="btn btn-outline-light me-2">Login</a>
                   <a href="../signup/" type="button" class="btn btn-warning">Sign-up</a>';
