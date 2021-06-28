@@ -368,7 +368,7 @@ session_start();
         </div>
 
         <div class="col-md-4 pt-5">
-          <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2 class="text-white">
+          <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2 class="text-white"> 
           <ul class="list-unstyled text-light footer-link-list">
             <li><a class="text-decoration-none" href="index.php">Home</a></li>
             <li><a class="text-decoration-none" href="pages/about/">About Us</a></li>

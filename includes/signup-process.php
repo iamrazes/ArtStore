@@ -81,7 +81,7 @@ if (mysqli_query($conn, $sql)) {
                 height="144"
             /></a>
             <h1 class="h1 mb-3 fw-normal">Oops!!</h1>
-            <h1 class="h5 mb-3 fw-normal">Seems like email or password are already used.</h1>
+            <h1 class="h5 mb-3 fw-normal">Seems like email or username are already used.</h1>
             <br>
             <h1 class="h5 mb-3 fw-normal">Try again!</h1>
             <br>
