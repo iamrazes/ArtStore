@@ -1,5 +1,6 @@
-<h1>Tugas Akhir : Web Programming I</h1>
-<br>
-Nama    : Muhammad Dagistan Silawane<br>
-NIM     : 207200021<br>
+This is my college final project on the second semester on developing a web programming<br>
+
+About this project<br>
+
+This project is a simple php local website with basic register and login<br>
 
